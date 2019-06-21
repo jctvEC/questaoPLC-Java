@@ -5,7 +5,7 @@ public class Questao {
 
   public static void main(String [ ] args) { 
 
-    Integer a,b,c,d,e ; 
+    integer a,b,c,d,e ; 
     int f ; 
     char r1,r2,r3,r4,r5 ;   
     String s ; 
