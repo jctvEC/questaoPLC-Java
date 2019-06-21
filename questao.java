@@ -1,6 +1,7 @@
 Nas linguagens orientadas a objeto, existe uma diferença entre a referência a um objeto e o valor do objeto. Em java, o operador = = e o método equals, este definido para a classe Object, apresentam comportamento específico que tem relação com essa característica. 
 Considere o exemplo de um código Java 6 a seguir.
-
+import java.lang.Integer; 
+  
 public class Questao { 
 
   public static void main(String [ ] args) { 
@@ -11,7 +12,7 @@ public class Questao {
     String s ; 
 
     a=1; b=1; c = a ; 
-    d= b; f=1; e = f.; 
+    d= b; f=1; e = f; 
 
     r 1= ( a.equals(b)? 's' : 'n' ) ; 
     r 2= ( a.equals(c)? 's' : 'n' ) ; 
