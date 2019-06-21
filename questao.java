@@ -14,11 +14,11 @@ public class Questao {
     a=1; b=1; c = a ; 
     d= b; f=1; e = f; 
 
-    r 1= ( a.equals(b)? 's' : 'n' ) ; 
-    r 2= ( a.equals(c)? 's' : 'n' ) ; 
-    r 3= ( a==d? 's' : 'n' ) ; 
-    r 4= ( a==e? 's' : 'n' ) ; 
-    r 5= ( a.equals(f)? 's' : 'n' ) ;
+    r1= ( a.equals(b)? 's' : 'n' ) ; 
+    r2= ( a.equals(c)? 's' : 'n' ) ; 
+    r3= ( a==d? 's' : 'n' ) ; 
+    r4= ( a==e? 's' : 'n' ) ; 
+    r5= ( a.equals(f)? 's' : 'n' ) ;
 
     s = " "+r1+r2+r3+r4+r5 ; 
 
