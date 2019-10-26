@@ -68,8 +68,8 @@ class Aluno extends Pessoa {
     }
 
     public String getCPFandName(){
-        System.out.println(this.getCPF.getCPF());
-        System.out.println(this.getCPF.getNome());
+        System.out.println(this.getCPF());
+        System.out.println(this.getNome());
 }
 
 class Professor extends Pessoa {
