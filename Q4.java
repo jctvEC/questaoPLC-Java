@@ -67,6 +67,9 @@ class Aluno extends Pessoa {
         super.cpf = cpf;
     }
 
+    public String getCPFandName(){
+        System.out.println(this.getCPF.getCPF());
+        System.out.println(this.getCPF.getNome());
 }
 
 class Professor extends Pessoa {
